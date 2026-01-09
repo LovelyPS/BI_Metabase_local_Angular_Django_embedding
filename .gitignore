@@ -1,3 +1,32 @@
-venv
-__pycache__
-.idea
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Virtual Environment
+venv/
+.venv/
+env/
+
+# Django Database
+db.sqlite3
+
+# Django Media
+/media/
+
+# Static files (collected)
+staticfiles/
+
+# Environment variables (Sensitive)
+.env
+
+# IDE configs
+.idea/
+.vscode/
+*.swp
+
+# OS Files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
